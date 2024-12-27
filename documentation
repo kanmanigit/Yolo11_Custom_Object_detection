@@ -1,0 +1,20 @@
+Vehicle License Plate Detection using YOLO11
+
+This repository provides a solution for detecting vehicle license plates in images or videos using a pretrained YOLO11 model, further fine-tuned on a large custom dataset. The project leverages PyTorch as its primary deep learning framework and supports both real-time inference (with a sufficient GPU) and offline batch processing of images or video files.
+
+Overview
+
+Accurate detection of vehicle license plates is vital for applications such as automated parking systems, toll booths, and law enforcement. This project employs YOLO11—a single-stage object detection model—to achieve real-time detection.
+
+Highlights:
+
+Uses PyTorch for flexible and efficient model development.
+Includes training scripts for further fine-tuning on your own datasets.
+Provides inference scripts for batch processing of images/videos or real-time webcam feeds.
+Key Features
+
+Pretrained YOLO11 Model: Start with robust detection performance out of the box.
+Fine-Tuned on Custom Dataset: Adapted to various license plate formats, lighting conditions, and angles.
+High Throughput: Single-stage detection approach for near real-time inference.
+Modular Design: Easily integrate custom enhancements or additional classes.
+
